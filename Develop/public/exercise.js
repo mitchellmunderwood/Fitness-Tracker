@@ -113,9 +113,11 @@ async function handleFormSubmit(event) {
     workoutData.duration = Number(resistanceDurationInput.value.trim());
   }
 
-  await API.addExercise(workoutData);
+  if (workoutData.name !== "") {
+    await API.addExercise(workoutData);
+    toast.classList.add("success");
+  }
   clearInputs();
-  toast.classList.add("success");
 }
 
 function handleToastAnimationEnd() {
@@ -140,11 +142,9 @@ if (workoutTypeSelect) {
   workoutTypeSelect.addEventListener("change", handleWorkoutTypeChange);
 }
 if (completeButton) {
-  completeButton.addEventListener("click", async function (event) {
+  completeButton.addEventListener("click", function (event) {
     shouldNavigateAway = true;
-    // handleFormSubmit(event);
-    event.preventDefault();
-    await API.getLastWorkout();
+    handleFormSubmit(event);
   });
 }
 if (addButton) {
