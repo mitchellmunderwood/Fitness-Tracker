@@ -1,7 +1,7 @@
-// const express = require("express");
-const mongoose = "mongoose";
+const express = require("express");
+const mongoose = require("mongoose");
 const router = require("express").Router();
-const Workout = require("../models/Workout.js");
+const Workout = require("../models/Workout");
 
 router.get("/api/workouts", (req, res) => {
   Workout.find({})
@@ -33,7 +33,7 @@ router.put("/api/workouts/:id", (req, res) => {
     });
 });
 
-router.post("/api/workouts/", (req, res) => {
+router.post("/api/workouts", (req, res) => {
   Workout.create(req.body)
     .then((dbWorkout) => {
       res.json(dbWorkout);
