@@ -1,32 +1,142 @@
-# Fitness Tracker 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
-### Description 
- A friendly application to keep track to keep track of your workout performance and view statistics. 
-### Table of Contents 
-- [**Description**](#Description) 
-- [**Installation**](#Installation) 
-- [**Usage**](#Usage) 
-- [**License**](#License) 
-- [**Contributing**](#Contributing) 
-- [**Tests**](#Tests) 
-- [**Questions**](#Questions)
-### Deployment 
- View the deployed app at https://shrouded-scrubland-43677.herokuapp.com/?id=5f6175c026228c0017bb4f4a. 
-### Usage 
- NA 
-### License 
-This project is covered under the MIT license. 
-### Contributing 
- NA 
-### Tests 
- NA 
-### Questions 
+<h1 align="center">
+  <br>
+  <!-- image/logo link -->
+  <a href="https://fitness-tracker-mu.herokuapp.com/"><img src="./README-support/logo.png" alt="title" width="200" height="200" ></a>
+  
+  Fitness-Tracker
+  <br>
+</h1>
 
-For additional projects and materials, go to ***[github.com/sassypigeon](https://github.com/sassypigeon)***. 
-For additional questions, email me at ***mitchellmunderwood@gmail.com*** 
+<h4 align="center">
+<!-- Description of Project -->
+Track your workouts and see your progress.
+</h4>
 
-### Images
+<p align="center">
+    <!-- table of contents -->
+  <a href="#live">Live</a> •
+  <a href="#gallery">Gallery</a> •
+  <a href="#description">Description</a> •
+  <a href="#license">License</a> •
+  <a href="#stack">Stack</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#testing">Testing</a> •
+  <a href="#questions">Questions</a> •
+  <a href="#contributing">Contributing</a> 
+</p>
 
- ![home](./readme_support/home.png)
+<br>
 
-![stats](./readme_support/stats.png)
+<p>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</p>
+
+### Live
+
+Project Title is currently deployed with Heroku. <a href="https://fitness-tracker-mu.herokuapp.com/">Go to Live</a>.
+<br/>
+
+### Gallery
+
+<p align="center">
+    <img src="./README-support/img1.png" width="auto" height="auto">
+</p>
+<p align="center">
+    <img src="./README-support/img2.png" width="auto" height="auto">
+</p>
+
+<br/>
+
+### Description
+
+A friendly application to keep track to keep track of your workout performance and view statistics.
+
+<br/>
+
+### License
+
+<p>
+<img src="https://img.shields.io/badge/License-MIT-informational?style=flat&logo=mit&logoColor=white&color=blue"
+         alt="MIT License">
+</p>
+
+Project Title is licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT) and is available for free.
+
+<br/>
+
+### Stack
+
+<p align="left">
+<!-- line for badges -->
+    <img src="https://img.shields.io/badge/Code-HTML5-informational?style=flat&logo=html5&logoColor=white&color=blue"
+         alt="HTML5">
+    <img src="https://img.shields.io/badge/Code-CSS3-informational?style=flat&logo=css3&logoColor=white&color=blue"
+         alt="CSS3">
+    <img src="https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=blue"
+         alt="JavaSript">
+    <!-- <img src="https://img.shields.io/badge/Code-Handlebars-informational?style=flat&logo=handlebars&logoColor=white&color=blue"
+         alt="Express"> -->
+    <img src="https://img.shields.io/badge/Code-Express-informational?style=flat&logo=express&logoColor=white&color=blue"
+         alt="Express">
+    <img src="https://img.shields.io/badge/Code-Node-informational?style=flat&logo=node&logoColor=white&color=blue"
+         alt="Node">
+    <img src="https://img.shields.io/badge/Data-mySQL-informational?style=flat&logo=mysql&logoColor=white&color=blue"
+         alt="Node">
+</p>
+
+<!-- Open Source Tools:
+
+- [Thing](https://thing.com) -->
+
+<br/>
+
+### Installation
+
+Clone the repo and run `npm install`.
+
+<br/>
+
+### Usage
+
+Type `npm start` in the CLI.
+
+<br/>
+
+### Questions
+
+For additional questions, email Mitchell Underwood at **mitchellmunderwood@gmail.com**.
+
+<br/>
+
+### Contributing
+
+Want to contribute? Great!
+To fix a bug or enhance an existing feature, follow these steps:
+
+- Fork the repo
+- Create a new branch `git checkout -b improve-feature`
+- Make the appropriate changes in the files
+- Commit your changes `git commit -am 'Improve feature'`
+- Push to the branch `git push origin improve-feature`
+- Create a Pull Request
+
+<br/>
+
+### Contributors
+
+<p align="center">
+<img src="./README-support/mitchell.jpg" width="150" height="150" />
+<br/>
+Mitchell Underwood
+<br/>
+<a href="https://github.com/mitchellmunderwood">Github</a> •
+<a href="https://www.linkedin.com/in/mitchellmunderwood/">LinkedIn</a> •
+<a href="https://whoismitchell.com">Porfolio</a>
+
+</p>
